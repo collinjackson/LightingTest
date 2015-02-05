@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>29</integer>
+	<integer>39</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -66,7 +66,7 @@
 									<integer>3</integer>
 									<key>value</key>
 									<array>
-										<real>331.592041015625</real>
+										<real>316.09378051757812</real>
 										<real>320</real>
 									</array>
 								</dict>
@@ -112,7 +112,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>331.592041015625</real>
+							<real>316.09378051757812</real>
 							<real>320</real>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -187,6 +187,8 @@
 						<array/>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 				<key>seqExpanded</key>
 				<true/>
 			</dict>
@@ -459,8 +461,6 @@
 						<real>1</real>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -523,8 +523,8 @@
 									<integer>3</integer>
 									<key>value</key>
 									<array>
-										<real>374.18902587890625</real>
-										<real>220.93466186523438</real>
+										<real>369.73617553710938</real>
+										<real>197.55711364746094</real>
 									</array>
 								</dict>
 							</array>
@@ -569,8 +569,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>374.18902587890625</real>
-							<real>220.93466186523438</real>
+							<real>369.73617553710938</real>
+							<real>197.55711364746094</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -644,47 +644,7 @@
 						<array>
 							<dict>
 								<key>UUID</key>
-								<integer>16</integer>
-								<key>baseClass</key>
-								<string>CCEffectLighting</string>
-								<key>className</key>
-								<string>CCBPEffectLighting</string>
-								<key>properties</key>
-								<array>
-									<dict>
-										<key>name</key>
-										<string>shininess</string>
-										<key>type</key>
-										<string>Float</string>
-										<key>value</key>
-										<real>0.10000000149011612</real>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>groups</string>
-										<key>type</key>
-										<string>TokenArray</string>
-										<key>value</key>
-										<array/>
-									</dict>
-									<dict>
-										<key>name</key>
-										<string>specularColor</string>
-										<key>type</key>
-										<string>Color4</string>
-										<key>value</key>
-										<array>
-											<real>1</real>
-											<real>1</real>
-											<real>1</real>
-											<real>1</real>
-										</array>
-									</dict>
-								</array>
-							</dict>
-							<dict>
-								<key>UUID</key>
-								<integer>14</integer>
+								<integer>38</integer>
 								<key>baseClass</key>
 								<string>CCEffectRefraction</string>
 								<key>className</key>
@@ -716,6 +676,46 @@
 										<array>
 											<string></string>
 											<string></string>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>UUID</key>
+								<integer>16</integer>
+								<key>baseClass</key>
+								<string>CCEffectLighting</string>
+								<key>className</key>
+								<string>CCBPEffectLighting</string>
+								<key>properties</key>
+								<array>
+									<dict>
+										<key>name</key>
+										<string>shininess</string>
+										<key>type</key>
+										<string>Float</string>
+										<key>value</key>
+										<real>0.12316453456878662</real>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>groups</string>
+										<key>type</key>
+										<string>TokenArray</string>
+										<key>value</key>
+										<array/>
+									</dict>
+									<dict>
+										<key>name</key>
+										<string>specularColor</string>
+										<key>type</key>
+										<string>Color4</string>
+										<key>value</key>
+										<array>
+											<real>1</real>
+											<real>1</real>
+											<real>1</real>
+											<real>1</real>
 										</array>
 									</dict>
 								</array>
